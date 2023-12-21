@@ -1,0 +1,28 @@
+<!-- Served this file in admin.js -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ADMIN-Add Product Page</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="/">Shop</a>
+          </li>
+          <li>
+            <a href="/admin/contactus">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <form action="/admin/product" method="POST">
+      <input type="text" name="title" placeholder="Enter product name" />
+      <input type="number" name="size" placeholder="Enter quantity" />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
